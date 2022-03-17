@@ -1,12 +1,14 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import NavbarVue from "./components/Navbar.vue";
+import Dashboard from "./views/layaouts/Dashboard.vue";
 </script>
 
 <template>
-  <NavbarVue />
-  <router-view />
+  <div class="grid grid-cols-12">
+    <Dashboard />
+    <router-view />
+  </div>
 </template>
 
 <style>
