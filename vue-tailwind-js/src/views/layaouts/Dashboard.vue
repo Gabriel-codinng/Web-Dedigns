@@ -34,7 +34,8 @@
         </router-link>
 
         <!--------------------------------------------------------------- LIST OF ELEMENTS DASHBOARD -------------------------------------->
-        <ul class="space-y-2">
+        <h1 class="text-center text-lg font-semibold">Admin</h1>
+        <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200 dark:border-gray-700">
           <!-- USERS -->
           <li>
             <router-link
@@ -85,9 +86,7 @@
           </li>
           <!-- END DEPARTMENTS -->
         </ul>
-        <ul
-          class="pt-4 mt-4 space-y-2 border-t border-gray-200 dark:border-gray-700"
-        >
+        <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200 dark:border-gray-700">
           <!-- ABOUT -->
           <li>
             <router-link
