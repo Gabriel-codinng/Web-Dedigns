@@ -15,7 +15,7 @@ onMounted(() => {
     anime({
       targets: [heading.value],
       opacity: 0,
-      duration: 1200,
+      duration: 800,
       loop: 1,
       easing: "linear",
       direction: "reverse",

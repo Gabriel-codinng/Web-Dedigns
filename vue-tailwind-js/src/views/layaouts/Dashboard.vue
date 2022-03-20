@@ -1,10 +1,12 @@
 <script setup></script>
 
 <template>
-  <div class="col-start-1 col-end-3">
-    <aside class="w-64" aria-label="Sidebar">
+  <!-- fixed to fix the sidebar in the screen or window -->
+  <div class="fixed col-start-1 col-end-3">
+    <aside class="w-64 h-screen" aria-label="Sidebar">
+      <!-- h-screen to have the screen size -->
       <div
-        class="overflow-y-auto py-4 px-3 bg-[#3F83F8] text-white rounded-r-lg dark:bg-gray-800"
+        class="overflow-y-auto h-screen py-4 px-3 bg-[#3F83F8] text-white rounded-r-lg dark:bg-gray-800"
       >
         <!-- --------------------------------------------------------------- HOME ICON TOP ---------------------------------------------------------------- -->
         <router-link to="/" class="flex pl-2.5 mb-5">
@@ -115,7 +117,7 @@
           <!-- HELP -->
           <li>
             <router-link
-              to="/about"
+              to="/help"
               class="flex items-center p-2 text-base font-normal rounded-lg transition duration-75 hover:bg-white hover:text-blue-500"
             >
               <svg
